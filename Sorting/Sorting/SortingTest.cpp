@@ -22,12 +22,14 @@ int main() {
 
 	heap_sort(a, a_length);
 
+	// To delay the printing to see how fast the search is
 	cout << "Enter a value to see the sorted results: ";
 	cin >> dummy_var;
 
 	cout << "After sort: " << endl;
 	display_array(a, a_length);
 
+	return EXIT_SUCCESS;
 }
 
 void display_array(int *a, const int& length) {
